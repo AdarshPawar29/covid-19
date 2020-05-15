@@ -17,7 +17,7 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
           component={Card}
           xs={12}
           md={3}
-          className={clxs(styles.Card, styles.confirmed)}
+          className={clxs(styles.card, styles.confirmed)}
         >
           <CardContent>
             <Typography color="textSecondary" gutterBottom>
@@ -44,7 +44,7 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
           component={Card}
           xs={12}
           md={3}
-          className={clxs(styles.Card, styles.recovered)}
+          className={clxs(styles.card, styles.recovered)}
         >
           <CardContent>
             <Typography color="textSecondary" gutterBottom>
@@ -71,7 +71,7 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
           component={Card}
           xs={12}
           md={3}
-          className={clxs(styles.Card, styles.deaths)}
+          className={clxs(styles.card, styles.deaths)}
         >
           <CardContent>
             <Typography color="textSecondary" gutterBottom>
